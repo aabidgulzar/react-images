@@ -16,7 +16,6 @@ function SearchBar({onSubmit}){
     return (
         <div className="search-bar">
             <form onSubmit={handleFormSubmit}>
-                <label>Search Here</label>
                 <input value={term} onChange={handleChange} placeholder="Search images"/>
                 <button type="submit">Search</button>
             </form>
